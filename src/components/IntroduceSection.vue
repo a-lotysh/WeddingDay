@@ -13,12 +13,11 @@
       <img class="photo" src="../assets/we_are.jpg">
     </div>
     <div class="place">
-        <h2 class="ceremony">Ceremony</h2>
-        <h3 class="time">3:00 PM</h3>
-        <h4 class="hotel">Парк-готель Швейцарія</h4>
-        <h4 class="point">Обарів, Рівненська обл.</h4>
-
-        <a class="map-link" target="_blank" href="https://maps.app.goo.gl/ib7t4RfgJVGCRfo79">Map</a>
+        <h2 class="ceremony">Весільна церемонія проходила</h2>
+        <h3 class="time">О 15:00</h3>
+        <a class="hotel map-link" target="_blank" href="https://maps.app.goo.gl/ib7t4RfgJVGCRfo79">Парк-готель Швейцарія</a>
+        <h4 class="point">с. Обарів, Рівненська обл.</h4>
+        <h2 class="ceremony">Дякуємо, що були з нами!</h2>
     </div>
   </div>
 </template>
@@ -73,12 +72,12 @@
 
     & .ceremony {
       font-size: 4em;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
 
     & .time {
       font-size: 3em;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
 
     & .hotel {

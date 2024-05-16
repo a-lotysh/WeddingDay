@@ -55,7 +55,13 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+
+  background-color: var(--color-background); /* Сірий фон */
+  /*background-image: url('./main_bg.jpg'); !* Шлях до вашої картинки *!*/
+  /*background-size: cover; !* Масштабування картинки по всій області *!*/
+  /*background-repeat: no-repeat; !* Відсутність повторення картинки *!*/
+  /*background-position: center; !* Вирівнювання картинки по центру *!*/
+
   transition:
     color 0.5s,
     background-color 0.5s;

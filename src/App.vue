@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import MainSection from './components/MainSection.vue';
 import IntroduceSection from './components/IntroduceSection.vue';
+import PhotoReleaseSection from './components/PhotoReleaseSection.vue';
 </script>
 
 <template>
@@ -8,12 +9,22 @@ import IntroduceSection from './components/IntroduceSection.vue';
     <MainSection />
   </main>
 
+  <section class="photo-release-section">
+    <photo-release-section />
+  </section>
+
   <section class="introduce-section">
-    <introduce-section></introduce-section>
+    <introduce-section />
   </section>
 </template>
 
 <style scoped>
+.photo-release-section {
+  max-width: 1280px;
+  margin: auto;
+  width: 100%;
+}
+
 .introduce-section {
   height: 100vh;
   max-width: 1280px;

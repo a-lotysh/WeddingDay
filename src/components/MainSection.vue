@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CountdownTimer from './CountdownTimer.vue';
+// import CountdownTimer from './CountdownTimer.vue';
 </script>
 
 <template>
@@ -23,9 +23,6 @@ import CountdownTimer from './CountdownTimer.vue';
       <div class="event">
         <h3>19 . 05 . 24</h3>
       </div>
-    </div>
-    <div class="timer">
-      <CountdownTimer />
     </div>
   </div>
 </template>
