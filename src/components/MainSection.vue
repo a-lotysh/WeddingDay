@@ -39,6 +39,8 @@
   background: url("../assets/bg.png") no-repeat fixed center;
   background-size: cover;
 
+  font-family: 'Ceremonius', serif;
+
   align-items: center;
   text-align: center;
   color: var(--color-text);
@@ -49,35 +51,37 @@
       position: fixed;
       display: block;
       margin: 0 auto 2rem;
-      width: 80px;
-      height: 80px;
+      width: 115px;
+      height: 110px;
       top: 50px;
       left: 100px;
     }
     & .welcome-text {
-      font-size: 1.5em;
+      font-size: 2.5em;
     }
   }
 
   & .preview-text {
     & .title {
-      font-size: 1em;
+      font-size: 3em;
     }
 
     & .names {
-      font-size: 2.5em;
+      font-size: 4.5em;
     }
 
     & .event {
-      font-size: 2em;
+      font-size: 5em;
     }
   }
 }
 
+/*
 .timer {
   color: white;
   width: inherit;
 }
+*/
 
 @media (max-width: 768px) {
   .main-section {
@@ -90,9 +94,25 @@
       & .logo {
         position: inherit;
         margin: 0 auto 2em;
+        width: 80px;
+        height: 75px;
       }
       & .welcome-text {
-        font-size: 1.5em;
+        font-size: 2.5em;
+      }
+    }
+
+    & .preview-text {
+      & .title {
+        font-size: 2em;
+      }
+
+      & .names {
+        font-size: 3.5em;
+      }
+
+      & .event {
+        font-size: 3em;
       }
     }
   }

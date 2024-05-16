@@ -52,6 +52,16 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Ceremonius';
+  src: url('./ceremonioustwo.ttf');
+}
+
+@font-face {
+  font-family: 'Phenomena';
+  src: url('./phenomena/Phenomena-Light.otf');
+}
+
 body {
   min-height: 100vh;
   color: var(--color-text);
@@ -80,7 +90,7 @@ body {
   /*  'Helvetica Neue',*/
   /*  sans-serif;*/
 
-  font-family: 'Orpheus Pro';
+  font-family: 'Phenomena', serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
