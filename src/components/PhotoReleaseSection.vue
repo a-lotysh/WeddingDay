@@ -1,12 +1,5 @@
 <script setup lang="ts">
-
-// import { reactive } from 'vue';
-
-// const data = reactive([
-//   '<div class="example-slide">Slide 1</div>',
-//   '<div class="example-slide">Slide 2</div>',
-//   '<div class="example-slide">Slide 3</div>',
-// ]);
+import Carousel from './CarouselSection.vue';
 </script>
 
 <template>
@@ -16,15 +9,16 @@
     <div><hr></div>
   </div>
   <div class="photo-release-section">
-    <!--    <vue-carousel :data="data"></vue-carousel>-->
-    <!--https://fengyuanchen.github.io/vue-carousel-->
-    <div class="text-intro">Ваші фото скоро будуть тут!</div>
+    <Carousel />
+    <div class="text-intro">Ваші фото вже
+      <a class="text-intro-link" href="https://drive.google.com/drive/folders/1uVJkmbmzo-ncD4H0VUKfhRW20oV_2Dtc?usp=sharing" target="_blank">туууут!</a>
+    </div>
   </div>
 </template>
 
 <style scoped lang="postcss">
 .photo-release-section {
-  height: 200px;
+  height: 345px;
 
   text-align: center;
   align-content: center;
@@ -148,5 +142,15 @@
       }
     }
   }
+}
+
+.text-intro-link {
+  color: var(--vt-c-text-light-1);
+  text-decoration: underline;
+}
+.text-intro-link:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--vt-c-text-light-2);
 }
 </style>

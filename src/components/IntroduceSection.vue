@@ -10,14 +10,27 @@
   </div>
   <div class="introduce-section">
     <div class="photo-section">
-      <img class="photo" src="../assets/we_are.jpg">
+      <img class="photo" src="../assets/we_are.JPG">
     </div>
-    <div class="place">
-        <h2 class="ceremony">Весільна церемонія проходила</h2>
-        <h3 class="time">О 15:00</h3>
-        <a class="hotel map-link" target="_blank" href="https://maps.app.goo.gl/ib7t4RfgJVGCRfo79">Парк-готель Швейцарія</a>
-        <h4 class="point">с. Обарів, Рівненська обл.</h4>
-        <h2 class="ceremony">Дякуємо, що були з нами!</h2>
+    <!--    <div class="place">-->
+    <!--        <h2 class="ceremony">Весільна церемонія проходила</h2>-->
+    <!--        <h3 class="time">О 15:00</h3>-->
+    <!--        <a class="hotel map-link" target="_blank" href="https://maps.app.goo.gl/ib7t4RfgJVGCRfo79">Парк-готель Швейцарія</a>-->
+    <!--        <h4 class="point">с. Обарів, Рівненська обл.</h4>-->
+    <!--        <h2 class="ceremony">Дякуємо, що були з нами!</h2>-->
+    <!--    </div>-->
+    <div class="verse">
+      <h1 style="font-size: 2.5em; margin-bottom: 50px">
+        Любов довготерпить, любов милосердствує,
+        не заздрить, любов не величається,
+        не надимається, не поводиться
+        нечемно, не шукає тільки свого,
+        не рветься до гніву, не думає лихого,
+        не радіє з неправди, але тішиться правдою,
+        усе зносить, вірить у все,
+        сподівається всього, усе терпить!
+      </h1>
+      <h1 style="font-size: 2em; font-weight: bold">Перше послання до Коринтян 13:4-7</h1>
     </div>
   </div>
 </template>
@@ -67,7 +80,7 @@
     }
   }
 
-  .place {
+  .place, .verse {
     width: 50%;
 
     & .ceremony {
@@ -113,7 +126,7 @@
       min-width: 310px;
     }
 
-    & .place {
+    & .place, & .verse {
       width: 80% !important;
 
       & .ceremony,
@@ -124,6 +137,11 @@
       & .point {
         margin-bottom: 10px !important;
       }
+    }
+
+    .verse h1 {
+      margin-top: 20px;
+      margin-bottom: 20px !important;
     }
   }
 }
