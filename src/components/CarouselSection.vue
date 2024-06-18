@@ -5,43 +5,43 @@ import { reactive } from 'vue';
 const slides = reactive([
   {
     id: 0,
-    imageUrl: 'src/assets/carousel/01.jpeg',
+    imageUrl: 'src/assets/carousel/01.jpg',
   },
   {
     id: 1,
-    imageUrl: 'src/assets/carousel/02.jpeg',
+    imageUrl: 'src/assets/carousel/02.jpg',
   },
   {
     id: 2,
-    imageUrl: 'src/assets/carousel/03.jpeg',
+    imageUrl: 'src/assets/carousel/03.jpg',
   },
   {
     id: 3,
-    imageUrl: 'src/assets/carousel/04.jpeg',
+    imageUrl: 'src/assets/carousel/04.jpg',
   },
   {
     id: 4,
-    imageUrl: 'src/assets/carousel/05.jpeg',
+    imageUrl: 'src/assets/carousel/05.jpg',
   },
   {
     id: 5,
-    imageUrl: 'src/assets/carousel/06.jpeg',
+    imageUrl: 'src/assets/carousel/06.jpg',
   },
   {
     id: 6,
-    imageUrl: 'src/assets/carousel/07.jpeg',
+    imageUrl: 'src/assets/carousel/07.jpg',
   },
   {
     id: 7,
-    imageUrl: 'src/assets/carousel/08.jpeg',
+    imageUrl: 'src/assets/carousel/08.jpg',
   },
   {
     id: 8,
-    imageUrl: 'src/assets/carousel/09.jpeg',
+    imageUrl: 'src/assets/carousel/09.jpg',
   },
   {
     id: 9,
-    imageUrl: 'src/assets/carousel/10.jpeg',
+    imageUrl: 'src/assets/carousel/10.jpg',
   },
 ]);
 </script>
