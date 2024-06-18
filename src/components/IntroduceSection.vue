@@ -10,7 +10,7 @@
   </div>
   <div class="introduce-section">
     <div class="photo-section">
-      <img class="photo" src="../assets/we_are.JPG">
+      <img class="photo" src="../assets/we_are.jpg">
     </div>
     <!--    <div class="place">-->
     <!--        <h2 class="ceremony">Весільна церемонія проходила</h2>-->
