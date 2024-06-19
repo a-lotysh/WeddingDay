@@ -12,6 +12,13 @@ import Carousel from './CarouselSection.vue';
     <Carousel />
     <div class="text-intro">Ваші фото вже
       <a class="text-intro-link" href="https://drive.google.com/drive/folders/1uVJkmbmzo-ncD4H0VUKfhRW20oV_2Dtc?usp=sharing" target="_blank">туууут!</a>
+      <span class="arrow-icon">
+<!--        <svg class="" width="12" height="20px">-->
+<!--          <use href="../assets/arrow.svg#arrow"></use>-->
+<!--        </svg>-->
+      </span>
+
+<!--      <img class="text-intro-link-arrow" src="../assets/arrow.svg" />-->
     </div>
   </div>
 </template>
@@ -118,6 +125,51 @@ import Carousel from './CarouselSection.vue';
   }
 }
 
+
+.text-intro {
+  position: relative;
+}
+.text-intro-link {
+  color: var(--vt-c-text-light-1);
+  text-decoration: underline;
+}
+.text-intro-link:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--vt-c-text-light-2);
+}
+
+.text-intro-link-arrow {
+  width: 100px;
+  color: var(--vt-c-text-light-1);
+  position: relative;
+}
+
+@keyframes hit {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.arrow-icon {
+  position: absolute;
+  width: 0;
+  height: 0;
+//border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  animation: hit 1s infinite;
+  top: 22px;
+  left: 62%;
+}
+
 @media (max-width: 768px) {
   .introduce-section {
     flex-direction: column;
@@ -142,15 +194,10 @@ import Carousel from './CarouselSection.vue';
       }
     }
   }
-}
 
-.text-intro-link {
-  color: var(--vt-c-text-light-1);
-  text-decoration: underline;
-}
-.text-intro-link:hover {
-  cursor: pointer;
-  background-color: transparent;
-  color: var(--vt-c-text-light-2);
+  .arrow-icon {
+    top: 22px;
+    left: 82%;
+  }
 }
 </style>
