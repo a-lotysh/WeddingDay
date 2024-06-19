@@ -197,7 +197,7 @@ import Carousel from './CarouselSection.vue';
 
   .arrow-icon {
     top: 22px;
-    left: 82%;
+    left: 90%;
   }
 }
 </style>
