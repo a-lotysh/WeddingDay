@@ -12,7 +12,7 @@
     </header>
     <div class="preview-text">
       <div class="title">
-        <h1>Ми одружилися</h1>
+        <h1>Ми одружилися!</h1>
       </div>
       <div class="names">
         <h2>Весiлля Сонi i Андрiя</h2>
