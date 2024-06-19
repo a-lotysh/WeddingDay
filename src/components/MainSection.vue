@@ -9,16 +9,13 @@
         <img alt="Vue logo" src="../assets/logo.svg" />
       </div>
 
-      <div class="welcome-text">
-        <h2>Sonia & Andrii wedding</h2>
-      </div>
     </header>
     <div class="preview-text">
       <div class="title">
-        <h1>We’re Getting Married!</h1>
+        <h1>Ми одружилися</h1>
       </div>
       <div class="names">
-        <h2>Sonia & Andrii wedding</h2>
+        <h2>Весiлля Сонi i Андрiя</h2>
       </div>
       <div class="event">
         <h3>19 . 05 . 24</h3>
